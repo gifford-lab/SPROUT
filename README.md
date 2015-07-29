@@ -34,5 +34,5 @@ SubmitSeedMeFile3.java generates another set of commands that submit jobs to SGE
 
 edu.mit.csail.cgs.reeder.sproutseed.SubmitSeedMuFile3 --species "Mus musculus;mm9" --genome "mm9_1.txt" --rho 0.7 --alpha 5 --beta 1 --a 1 --b 1 --readfile <processed read pair file> --dumpfile <prefix for files to contain info about results> --outfile <prefix for files to contain results> --directory <relative path to directory containing initial read distributions> --stage 3 --maxiters 1000 --stage2file <prefix for the files containing the results from the previous stage, in this case stage 1> --eventout <prefix for files to contain binding event results> --interactionout <prefix for files to contain interaction results> --wd <the working directory> --submitfile <the file to write the commands to>
 
-Contact
+ <b>Contact</b><br>
 reeder.c at gmail
