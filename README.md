@@ -1,5 +1,34 @@
 #SPROUT
 
+<b>Citation:</b>  <a href=http://cgs.csail.mit.edu/pubs/sprout.pdf">High Resolution Modeling of Chromatin Interactions</a> C. Reeder, D. Gifford. Research in Computational Molecular Biology, 186-198, 2013. 
+
+<b>Abstract</b>
+Sprout
+is a novel generative model for ChIA-PET data that
+characterizes physical chromatin interactions and points of contact at
+high spatial resolution.
+Sprout
+improves upon other methods by learn-
+ing empirical distributions for pairs of reads that reflect ligation events
+between genomic locations that are bound by a protein of interest. Using
+these learned empirical distributions Sprout is able to accurately position
+interaction anchors, infer whether read pairs were created by self-ligation
+or inter-ligation, and accurately assign read pairs to anchors which al-
+lows for the identification of high confidence interactions. When
+Sprout
+is run on CTCF ChIA-PET data it identifies more interaction anchors
+that are supported by CTCF motif matches than other approaches with
+competitive positional accuracy.
+Sprout
+rejects interaction events that
+are not supported by pairs of reads that fit the empirical model for
+inter-ligation read pairs, producing a set of interactions that are more
+consistent across CTCF biological replicates than established methods.
+
+
+
+
+
 <b>Overview</b>
 
 Sprout is an approach to identifying pairs of spatially proximal binding events for a protein from ChIA-PET data.
