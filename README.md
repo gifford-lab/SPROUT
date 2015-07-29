@@ -1,10 +1,10 @@
 #SPROUT
 
-Overview
+<b>Overview</b>
 
 Sprout is an approach to identifying pairs of spatially proximal binding events for a protein from ChIA-PET data.
 
-How To Run
+<b>How To Run</b>
 
 Applying Sprout to ChIA-PET data requires several steps. Sprout is implemented to run on a cluster of machines through the Sun Grid Engine (SGE) queuing system. It is assumed that ChIA-PET sequence data have been appropriately processed to remove chimeric read pairs and that the linker sequences have been removed from the remaining sequence data. The remaining non-chimeric genomic sequence read pairs should be aligned to the appropriate reference genome. Reads from each pair should be aligned independently because no assumptions should be made about the locations of the reads in a pair relative to each other. It is assumed that input files reflect all read pairs such that both reads in each pair align to a unique location in the reference genome. Input files are expected to be tab-delimited with a pair of genomic locations on each line corresponding to the aligned locations of a read pair. For example:
 
