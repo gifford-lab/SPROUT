@@ -1,6 +1,6 @@
 #SPROUT
 
-<b>Citation:</b>  <a href=http://cgs.csail.mit.edu/pubs/sprout.pdf">High Resolution Modeling of Chromatin Interactions</a> C. Reeder, D. Gifford. Research in Computational Molecular Biology, 186-198, 2013. 
+<b>Citation:</b>  <a href="http://cgs.csail.mit.edu/pubs/sprout.pdf">High Resolution Modeling of Chromatin Interactions</a> C. Reeder, D. Gifford. Research in Computational Molecular Biology, 186-198, 2013. 
 
 <b>Abstract</b>
 Sprout
